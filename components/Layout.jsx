@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import LoginModal from "./OptionModal";
 
 const Layout = ({ children }) => {
   return (
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
       <footer>
         <Footer />
       </footer>
+      <LoginModal />
     </div>
   );
 };
